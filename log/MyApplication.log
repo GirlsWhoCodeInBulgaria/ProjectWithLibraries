@@ -17,7 +17,7 @@
 2016-04-08 17:43:36 [main] INFO  Main:16 - Starting our program...
 2016-04-08 17:44:15 [main] INFO  Main:18 - Starting our program...
 2016-04-08 17:44:23 [main] INFO  Main:18 - Starting our program...
-2016-04-08 17:44:24 [main] INFO  Main:31 - data.local.Weather@6a2f6f80[query=data.local.Query@45b4c3a9[count=1,created=2016-04-08T14:44:25Z,lang=en-US,results=data.local.Results@399c4be1[channel=data.local.Channel@291caca8[units=data.local.Units@385e9564[distance=km,pressure=mb,speed=km/h,temperature=C],title=Yahoo! Weather - Sofia, Sofiya-Grad, BG,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,description=Yahoo! Weather for Sofia, Sofiya-Grad, BG,language=en-us,lastBuildDate=Fri, 08 Apr 2016 05:44 PM EEST,ttl=60,location=data.local.Location@5b94b04d[city=Sofia,country=Bulgaria,region= Sofiya-Grad],wind=data.local.Wind@8c3b9d[chill=73,direction=130,speed=28.97],atmosphere=data.local.Atmosphere@4c39bec8[humidity=31,pressure=31087.06,rising=0,visibility=25.91],astronomy=data.local.Astronomy@f79e[sunrise=6:55 am,sunset=8:3 pm],image=data.local.Image@7ee8290b[title=Yahoo! Weather,width=142,height=18,link=http://weather.yahoo.com,url=http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif],item=data.local.Item@1f59a598[title=Conditions for Sofia, Sofiya-Grad, BG at 04:00 PM EEST,lat=42.697079,_long=23.324551,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,pubDate=Fri, 08 Apr 2016 04:00 PM EEST,condition=data.local.Condition@1e178745[code=30,date=Fri, 08 Apr 2016 04:00 PM EEST,temp=22,text=Partly Cloudy],forecast=[data.local.Forecast@192c3f1e[code=28,date=08 Apr 2016,day=Fri,high=23,low=12,text=Mostly Cloudy], data.local.Forecast@26b3fd41[code=11,date=09 Apr 2016,day=Sat,high=20,low=11,text=Showers], data.local.Forecast@7494f96a[code=28,date=10 Apr 2016,day=Sun,high=20,low=10,text=Mostly Cloudy], data.local.Forecast@561b6512[code=28,date=11 Apr 2016,day=Mon,high=17,low=9,text=Mostly Cloudy], data.local.Forecast@2e377400[code=34,date=12 Apr 2016,day=Tue,high=23,low=7,text=Mostly Sunny], data.local.Forecast@1757cd72[code=34,date=13 Apr 2016,day=Wed,high=27,low=8,text=Mostly Sunny], data.local.Forecast@445b295b[code=30,date=14 Apr 2016,day=Thu,high=26,low=12,text=Partly Cloudy], data.local.Forecast@49e5f737[code=34,date=15 Apr 2016,day=Fri,high=25,low=10,text=Mostly Sunny], data.local.Forecast@5c671d7f[code=34,date=16 Apr 2016,day=Sat,high=26,low=10,text=Mostly Sunny], data.local.Forecast@757277dc[code=30,date=17 Apr 2016,day=Sun,high=27,low=12,text=Partly Cloudy]],description=<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/30.gif"/>
+2016-04-08 17:44:24 [main] INFO  Main:31 - data.local.models.Weather@6a2f6f80[query=data.local.models.Query@45b4c3a9[count=1,created=2016-04-08T14:44:25Z,lang=en-US,results=data.local.models.Results@399c4be1[channel=data.local.models.Channel@291caca8[units=data.local.models.Units@385e9564[distance=km,pressure=mb,speed=km/h,temperature=C],title=Yahoo! Weather - Sofia, Sofiya-Grad, BG,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,description=Yahoo! Weather for Sofia, Sofiya-Grad, BG,language=en-us,lastBuildDate=Fri, 08 Apr 2016 05:44 PM EEST,ttl=60,location=data.local.models.Location@5b94b04d[city=Sofia,country=Bulgaria,region= Sofiya-Grad],wind=data.local.models.Wind@8c3b9d[chill=73,direction=130,speed=28.97],atmosphere=data.local.models.Atmosphere@4c39bec8[humidity=31,pressure=31087.06,rising=0,visibility=25.91],astronomy=data.local.models.Astronomy@f79e[sunrise=6:55 am,sunset=8:3 pm],image=data.local.models.Image@7ee8290b[title=Yahoo! Weather,width=142,height=18,link=http://weather.yahoo.com,url=http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif],item=data.local.models.Item@1f59a598[title=Conditions for Sofia, Sofiya-Grad, BG at 04:00 PM EEST,lat=42.697079,_long=23.324551,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,pubDate=Fri, 08 Apr 2016 04:00 PM EEST,condition=data.local.models.Condition@1e178745[code=30,date=Fri, 08 Apr 2016 04:00 PM EEST,temp=22,text=Partly Cloudy],forecast=[data.local.models.Forecast@192c3f1e[code=28,date=08 Apr 2016,day=Fri,high=23,low=12,text=Mostly Cloudy], data.local.models.Forecast@26b3fd41[code=11,date=09 Apr 2016,day=Sat,high=20,low=11,text=Showers], data.local.models.Forecast@7494f96a[code=28,date=10 Apr 2016,day=Sun,high=20,low=10,text=Mostly Cloudy], data.local.models.Forecast@561b6512[code=28,date=11 Apr 2016,day=Mon,high=17,low=9,text=Mostly Cloudy], data.local.models.Forecast@2e377400[code=34,date=12 Apr 2016,day=Tue,high=23,low=7,text=Mostly Sunny], data.local.models.Forecast@1757cd72[code=34,date=13 Apr 2016,day=Wed,high=27,low=8,text=Mostly Sunny], data.local.models.Forecast@445b295b[code=30,date=14 Apr 2016,day=Thu,high=26,low=12,text=Partly Cloudy], data.local.models.Forecast@49e5f737[code=34,date=15 Apr 2016,day=Fri,high=25,low=10,text=Mostly Sunny], data.local.models.Forecast@5c671d7f[code=34,date=16 Apr 2016,day=Sat,high=26,low=10,text=Mostly Sunny], data.local.models.Forecast@757277dc[code=30,date=17 Apr 2016,day=Sun,high=27,low=12,text=Partly Cloudy]],description=<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/30.gif"/>
 <BR />
 <b>Current Conditions:</b>
 <BR />Partly Cloudy
@@ -36,9 +36,9 @@
 <BR />
 (provided by <a href="http://www.weather.com" >The Weather Channel</a>)
 <BR />
-]]>,guid=data.local.Guid@687e99d8[isPermaLink=false]]]]]]
+]]>,guid=data.local.models.Guid@687e99d8[isPermaLink=false]]]]]]
 2016-04-08 17:44:40 [main] INFO  Main:18 - Starting our program...
-2016-04-08 17:44:41 [main] INFO  Main:31 - data.local.Results@707194ba[channel=data.local.Channel@1190200a[units=data.local.Units@6a2f6f80[distance=km,pressure=mb,speed=km/h,temperature=C],title=Yahoo! Weather - Sofia, Sofiya-Grad, BG,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,description=Yahoo! Weather for Sofia, Sofiya-Grad, BG,language=en-us,lastBuildDate=Fri, 08 Apr 2016 05:44 PM EEST,ttl=60,location=data.local.Location@45b4c3a9[city=Sofia,country=Bulgaria,region= Sofiya-Grad],wind=data.local.Wind@399c4be1[chill=73,direction=130,speed=28.97],atmosphere=data.local.Atmosphere@291caca8[humidity=31,pressure=31087.06,rising=0,visibility=25.91],astronomy=data.local.Astronomy@385e9564[sunrise=6:55 am,sunset=8:3 pm],image=data.local.Image@5b94b04d[title=Yahoo! Weather,width=142,height=18,link=http://weather.yahoo.com,url=http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif],item=data.local.Item@8c3b9d[title=Conditions for Sofia, Sofiya-Grad, BG at 04:00 PM EEST,lat=42.697079,_long=23.324551,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,pubDate=Fri, 08 Apr 2016 04:00 PM EEST,condition=data.local.Condition@4c39bec8[code=30,date=Fri, 08 Apr 2016 04:00 PM EEST,temp=22,text=Partly Cloudy],forecast=[data.local.Forecast@f79e[code=28,date=08 Apr 2016,day=Fri,high=23,low=12,text=Mostly Cloudy], data.local.Forecast@7ee8290b[code=11,date=09 Apr 2016,day=Sat,high=20,low=11,text=Showers], data.local.Forecast@1f59a598[code=28,date=10 Apr 2016,day=Sun,high=20,low=10,text=Mostly Cloudy], data.local.Forecast@1e178745[code=28,date=11 Apr 2016,day=Mon,high=17,low=9,text=Mostly Cloudy], data.local.Forecast@192c3f1e[code=34,date=12 Apr 2016,day=Tue,high=23,low=7,text=Mostly Sunny], data.local.Forecast@26b3fd41[code=34,date=13 Apr 2016,day=Wed,high=27,low=8,text=Mostly Sunny], data.local.Forecast@7494f96a[code=30,date=14 Apr 2016,day=Thu,high=26,low=12,text=Partly Cloudy], data.local.Forecast@561b6512[code=34,date=15 Apr 2016,day=Fri,high=25,low=10,text=Mostly Sunny], data.local.Forecast@2e377400[code=34,date=16 Apr 2016,day=Sat,high=26,low=10,text=Mostly Sunny], data.local.Forecast@1757cd72[code=30,date=17 Apr 2016,day=Sun,high=27,low=12,text=Partly Cloudy]],description=<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/30.gif"/>
+2016-04-08 17:44:41 [main] INFO  Main:31 - data.local.models.Results@707194ba[channel=data.local.models.Channel@1190200a[units=data.local.models.Units@6a2f6f80[distance=km,pressure=mb,speed=km/h,temperature=C],title=Yahoo! Weather - Sofia, Sofiya-Grad, BG,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,description=Yahoo! Weather for Sofia, Sofiya-Grad, BG,language=en-us,lastBuildDate=Fri, 08 Apr 2016 05:44 PM EEST,ttl=60,location=data.local.models.Location@45b4c3a9[city=Sofia,country=Bulgaria,region= Sofiya-Grad],wind=data.local.models.Wind@399c4be1[chill=73,direction=130,speed=28.97],atmosphere=data.local.models.Atmosphere@291caca8[humidity=31,pressure=31087.06,rising=0,visibility=25.91],astronomy=data.local.models.Astronomy@385e9564[sunrise=6:55 am,sunset=8:3 pm],image=data.local.models.Image@5b94b04d[title=Yahoo! Weather,width=142,height=18,link=http://weather.yahoo.com,url=http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif],item=data.local.models.Item@8c3b9d[title=Conditions for Sofia, Sofiya-Grad, BG at 04:00 PM EEST,lat=42.697079,_long=23.324551,link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/,pubDate=Fri, 08 Apr 2016 04:00 PM EEST,condition=data.local.models.Condition@4c39bec8[code=30,date=Fri, 08 Apr 2016 04:00 PM EEST,temp=22,text=Partly Cloudy],forecast=[data.local.models.Forecast@f79e[code=28,date=08 Apr 2016,day=Fri,high=23,low=12,text=Mostly Cloudy], data.local.models.Forecast@7ee8290b[code=11,date=09 Apr 2016,day=Sat,high=20,low=11,text=Showers], data.local.models.Forecast@1f59a598[code=28,date=10 Apr 2016,day=Sun,high=20,low=10,text=Mostly Cloudy], data.local.models.Forecast@1e178745[code=28,date=11 Apr 2016,day=Mon,high=17,low=9,text=Mostly Cloudy], data.local.models.Forecast@192c3f1e[code=34,date=12 Apr 2016,day=Tue,high=23,low=7,text=Mostly Sunny], data.local.models.Forecast@26b3fd41[code=34,date=13 Apr 2016,day=Wed,high=27,low=8,text=Mostly Sunny], data.local.models.Forecast@7494f96a[code=30,date=14 Apr 2016,day=Thu,high=26,low=12,text=Partly Cloudy], data.local.models.Forecast@561b6512[code=34,date=15 Apr 2016,day=Fri,high=25,low=10,text=Mostly Sunny], data.local.models.Forecast@2e377400[code=34,date=16 Apr 2016,day=Sat,high=26,low=10,text=Mostly Sunny], data.local.models.Forecast@1757cd72[code=30,date=17 Apr 2016,day=Sun,high=27,low=12,text=Partly Cloudy]],description=<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/30.gif"/>
 <BR />
 <b>Current Conditions:</b>
 <BR />Partly Cloudy
@@ -57,6 +57,269 @@
 <BR />
 (provided by <a href="http://www.weather.com" >The Weather Channel</a>)
 <BR />
-]]>,guid=data.local.Guid@445b295b[isPermaLink=false]]]]
+]]>,guid=data.local.models.Guid@445b295b[isPermaLink=false]]]]
 2016-04-08 17:45:02 [main] INFO  Main:18 - Starting our program...
-2016-04-08 17:45:03 [main] INFO  Main:31 - data.local.Astronomy@707194ba[sunrise=6:55 am,sunset=8:3 pm]
+2016-04-08 17:45:03 [main] INFO  Main:31 - data.local.models.Astronomy@707194ba[sunrise=6:55 am,sunset=8:3 pm]
+2016-04-08 20:35:35 [main] INFO  Main:17 - Starting our program...
+2016-04-08 20:35:37 [main] INFO  Main:30 - Yahoo! Weather for Sofia, Sofiya-Grad, BG
+2016-04-08 20:35:55 [main] INFO  Main:17 - Starting our program...
+2016-04-08 20:35:57 [main] INFO  Main:30 - <![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/26.gif"/>
+<BR />
+<b>Current Conditions:</b>
+<BR />Cloudy
+<BR />
+<BR />
+<b>Forecast:</b>
+<BR /> Fri - Mostly Cloudy. High: 23Low: 12
+<BR /> Sat - Showers. High: 20Low: 11
+<BR /> Sun - Mostly Cloudy. High: 20Low: 10
+<BR /> Mon - Mostly Cloudy. High: 17Low: 9
+<BR /> Tue - Mostly Sunny. High: 23Low: 7
+<BR />
+<BR />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-839722/">Full Forecast at Yahoo! Weather</a>
+<BR />
+<BR />
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)
+<BR />
+]]>
+2016-04-08 20:36:16 [main] INFO  Main:17 - Starting our program...
+2016-04-08 20:36:17 [main] INFO  Main:30 - data.local.models.Condition@33c911a1[code=26,date=Fri, 08 Apr 2016 07:00 PM EEST,temp=20,text=Cloudy]
+2016-04-08 20:36:17 [main] INFO  Main:31 - [data.local.models.Forecast@75db5df9[code=28,date=08 Apr 2016,day=Fri,high=23,low=12,text=Mostly Cloudy], data.local.models.Forecast@707194ba[code=11,date=09 Apr 2016,day=Sat,high=20,low=11,text=Showers], data.local.models.Forecast@1190200a[code=28,date=10 Apr 2016,day=Sun,high=20,low=10,text=Mostly Cloudy], data.local.models.Forecast@6a2f6f80[code=28,date=11 Apr 2016,day=Mon,high=17,low=9,text=Mostly Cloudy], data.local.models.Forecast@45b4c3a9[code=34,date=12 Apr 2016,day=Tue,high=23,low=7,text=Mostly Sunny], data.local.models.Forecast@399c4be1[code=34,date=13 Apr 2016,day=Wed,high=27,low=8,text=Mostly Sunny], data.local.models.Forecast@291caca8[code=30,date=14 Apr 2016,day=Thu,high=26,low=12,text=Partly Cloudy], data.local.models.Forecast@385e9564[code=34,date=15 Apr 2016,day=Fri,high=25,low=10,text=Mostly Sunny], data.local.models.Forecast@5b94b04d[code=34,date=16 Apr 2016,day=Sat,high=26,low=10,text=Mostly Sunny], data.local.models.Forecast@8c3b9d[code=30,date=17 Apr 2016,day=Sun,high=27,low=12,text=Partly Cloudy]]
+2016-04-08 20:38:07 [main] INFO  Main:18 - Starting our program...
+2016-04-08 20:38:09 [main] INFO  Main:31 - 20 °C - Cloudy
+2016-04-08 20:38:09 [main] INFO  Main:33 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:38:09 [main] INFO  Main:33 - 09 Apr 2016 Showers
+2016-04-08 20:38:09 [main] INFO  Main:33 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:38:09 [main] INFO  Main:33 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:38:09 [main] INFO  Main:33 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:38:09 [main] INFO  Main:33 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:38:09 [main] INFO  Main:33 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:38:09 [main] INFO  Main:33 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:38:09 [main] INFO  Main:33 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:38:09 [main] INFO  Main:33 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:38:25 [main] INFO  Main:18 - Starting our program...
+2016-04-08 20:38:26 [main] INFO  Main:31 - Current Conditions: 20 °C - Cloudy
+2016-04-08 20:38:26 [main] INFO  Main:33 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:38:26 [main] INFO  Main:33 - 09 Apr 2016 Showers
+2016-04-08 20:38:26 [main] INFO  Main:33 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:38:26 [main] INFO  Main:33 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:38:26 [main] INFO  Main:33 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:38:26 [main] INFO  Main:33 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:38:26 [main] INFO  Main:33 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:38:26 [main] INFO  Main:33 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:38:26 [main] INFO  Main:33 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:38:26 [main] INFO  Main:33 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:39:02 [main] INFO  Main:18 - Starting our program...
+2016-04-08 20:39:03 [main] INFO  Main:31 - Current Conditions: 20 °C - Cloudy
+2016-04-08 20:39:03 [main] INFO  Main:33 - 09 Apr 2016 Showers
+2016-04-08 20:39:03 [main] INFO  Main:33 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:39:03 [main] INFO  Main:33 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:39:03 [main] INFO  Main:33 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:39:03 [main] INFO  Main:33 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:43:06 [main] INFO  Main:22 - Starting the engine!
+2016-04-08 20:43:06 [main] WARN  Main:23 - This is a warning message
+2016-04-08 20:43:07 [main] INFO  Main:37 - Current Conditions: 20 °C - Cloudy
+2016-04-08 20:43:07 [main] INFO  Main:39 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:43:07 [main] INFO  Main:39 - 09 Apr 2016 Showers
+2016-04-08 20:43:07 [main] INFO  Main:39 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:43:07 [main] INFO  Main:39 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:43:07 [main] INFO  Main:39 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:43:07 [main] INFO  Main:39 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:43:07 [main] INFO  Main:39 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:43:07 [main] INFO  Main:39 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:43:07 [main] INFO  Main:39 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:43:07 [main] INFO  Main:39 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:43:07 [main] INFO  Main:46 - 2016-04-08T18:43:07.862+01:00
+2016-04-08 20:43:07 [main] WARN  Main:47 - 08:04:16
+2016-04-08 20:43:51 [main] INFO  Main:22 - Starting the engine!
+2016-04-08 20:43:51 [main] WARN  Main:23 - This is a warning message
+2016-04-08 20:43:51 [main] INFO  Main:29 - 2016-04-08T18:43:51.288+01:00
+2016-04-08 20:43:51 [main] WARN  Main:30 - 08:04:16 18:43:51
+2016-04-08 20:43:51 [main] INFO  Main:31 - --------------------------------------------------------
+2016-04-08 20:43:52 [main] INFO  Main:45 - Current Conditions: 20 °C - Cloudy
+2016-04-08 20:43:52 [main] INFO  Main:47 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:43:52 [main] INFO  Main:47 - 09 Apr 2016 Showers
+2016-04-08 20:43:52 [main] INFO  Main:47 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:43:52 [main] INFO  Main:47 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:43:52 [main] INFO  Main:47 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:43:52 [main] INFO  Main:47 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:43:52 [main] INFO  Main:47 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:43:52 [main] INFO  Main:47 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:43:52 [main] INFO  Main:47 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:43:52 [main] INFO  Main:47 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:43:52 [main] INFO  Main:49 - --------------------------------------------------------
+2016-04-08 20:49:05 [main] INFO  Main:27 - Starting the engine!
+2016-04-08 20:49:05 [main] WARN  Main:28 - This is a warning message
+2016-04-08 20:49:05 [main] INFO  Main:34 - 2016-04-08T18:49:05.848+01:00
+2016-04-08 20:49:05 [main] WARN  Main:35 - 08:04:16 18:49:05
+2016-04-08 20:49:05 [main] INFO  Main:36 - --------------------------------------------------------
+2016-04-08 20:49:07 [main] INFO  Main:50 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:49:07 [main] INFO  Main:52 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:49:07 [main] INFO  Main:52 - 09 Apr 2016 Showers
+2016-04-08 20:49:07 [main] INFO  Main:52 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:49:07 [main] INFO  Main:52 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:49:07 [main] INFO  Main:52 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:49:07 [main] INFO  Main:52 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:49:07 [main] INFO  Main:52 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:49:07 [main] INFO  Main:52 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:49:07 [main] INFO  Main:52 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:49:07 [main] INFO  Main:52 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:49:07 [main] INFO  Main:54 - --------------------------------------------------------
+2016-04-08 20:50:10 [main] INFO  Main:27 - Starting the engine!
+2016-04-08 20:50:10 [main] WARN  Main:28 - This is a warning message
+2016-04-08 20:50:10 [main] INFO  Main:34 - 2016-04-08T18:50:10.553+01:00
+2016-04-08 20:50:10 [main] WARN  Main:35 - 08:04:16 18:50:10
+2016-04-08 20:50:10 [main] INFO  Main:36 - --------------------------------------------------------
+2016-04-08 20:50:12 [main] INFO  Main:50 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:50:12 [main] INFO  Main:52 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:50:12 [main] INFO  Main:52 - 09 Apr 2016 Showers
+2016-04-08 20:50:12 [main] INFO  Main:52 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:50:12 [main] INFO  Main:52 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:50:12 [main] INFO  Main:52 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:50:12 [main] INFO  Main:52 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:50:12 [main] INFO  Main:52 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:50:12 [main] INFO  Main:52 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:50:12 [main] INFO  Main:52 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:50:12 [main] INFO  Main:52 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:50:12 [main] INFO  Main:54 - --------------------------------------------------------
+2016-04-08 20:51:05 [main] INFO  Main:27 - Starting the engine!
+2016-04-08 20:51:05 [main] WARN  Main:28 - This is a warning message
+2016-04-08 20:51:05 [main] INFO  Main:34 - 2016-04-08T18:51:05.723+01:00
+2016-04-08 20:51:05 [main] WARN  Main:35 - 08:04:16 18:51:05
+2016-04-08 20:51:05 [main] INFO  Main:36 - --------------------------------------------------------
+2016-04-08 20:51:07 [main] INFO  Main:50 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:51:07 [main] INFO  Main:52 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:51:07 [main] INFO  Main:52 - 09 Apr 2016 Showers
+2016-04-08 20:51:07 [main] INFO  Main:52 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:51:07 [main] INFO  Main:52 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:51:07 [main] INFO  Main:52 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:51:07 [main] INFO  Main:52 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:51:07 [main] INFO  Main:52 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:51:07 [main] INFO  Main:52 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:51:07 [main] INFO  Main:52 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:51:07 [main] INFO  Main:52 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:51:07 [main] INFO  Main:54 - --------------------------------------------------------
+2016-04-08 20:51:07 [main] INFO  Main:62 - Seriously, everything in Guava is useful. I've been using it for quite a while, and am still always discovering something new I can do with it that takes less code than doing it by hand.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Some things others have not really mentioned that I love:
+2016-04-08 20:51:07 [main] INFO  Main:62 - Multimaps are just great. Any time you would use something like Map<Foo, Collection<Bar>>, use a multimap instead and save yourself a ton of tedious checking for an existing collection mapped to a key and creating and adding it if it isn't there.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Ordering is great for building Comparators that behave just how you want.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Maps.uniqueIndex and Multimaps.index: these methods take an Iterable and a Function and build an ImmutableMap or ImmutableListMultimap that indexes the values in the Iterable by the result of applying the function to each. So with a function that retrieves the ID of an item, you can index a list of items by their ID in one line.
+2016-04-08 20:51:07 [main] INFO  Main:62 - The functional stuff it provides... filter, transform, etc. Despite the verbosity of using classes for Functions and Predicates, I've found this useful. I give an example of one way to make this read nicely here.
+2016-04-08 20:51:07 [main] INFO  Main:62 - ComparisonChain is a small, easily overlooked class that's useful when you want to write a comparison method that compares multiple values in succession and should return when the first difference is found. It removes all the tedium of that, making it just a few lines of chained method calls.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Objects.equal(Object,Object) - null safe equals.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Objects.hashCode(Object...) - easy way to get a hash code based on multiple fields of your class.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Objects.firstNonNull(Object,Object) - reduces the code for getting a default value if the first value is null, especially if the first value is the result of a method call (you'd have to assign it to a variable before doing this the normal way).
+2016-04-08 20:51:07 [main] INFO  Main:62 - CharMatchers were already mentioned, but they're very powerful.
+2016-04-08 20:51:07 [main] INFO  Main:62 - Throwables lets you do some nice things with throwables, such as Throwables.propagate which rethrows a throwable if it's a RuntimeException or an Error and wraps it in a RuntimeException and throws that otherwise.
+2016-04-08 20:51:07 [main] INFO  Main:62 - I could certainly go on, but I have to get to work. =) Anyway, despite my having listed some things I like here, the fact is that everything in Guava is useful in some situation or another. Much of it is useful very often. As you use it, you'll discover more uses. Not using it will feel a bit like having one hand tied behind your back.
+2016-04-08 20:52:50 [main] INFO  Main:27 - Starting the engine!
+2016-04-08 20:52:50 [main] WARN  Main:28 - ----------------- Testing Log4j Library ----------------
+2016-04-08 20:52:50 [main] INFO  Main:32 - --------------------------------------------------------
+2016-04-08 20:52:50 [main] INFO  Main:33 - ------------- Joda Time Library  -----------------------
+2016-04-08 20:52:50 [main] INFO  Main:34 - --------------------------------------------------------
+2016-04-08 20:52:50 [main] INFO  Main:38 - 2016-04-08T18:52:50.115+01:00
+2016-04-08 20:52:50 [main] WARN  Main:39 - 08:04:16 18:52:50
+2016-04-08 20:52:50 [main] INFO  Main:43 - --------------------------------------------------------
+2016-04-08 20:52:50 [main] INFO  Main:44 - ------------- Retrofit Library  ------------------------
+2016-04-08 20:52:50 [main] INFO  Main:45 - --------------------------------------------------------
+2016-04-08 20:52:51 [main] INFO  Main:57 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:52:51 [main] INFO  Main:59 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:52:51 [main] INFO  Main:59 - 09 Apr 2016 Showers
+2016-04-08 20:52:51 [main] INFO  Main:59 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:52:51 [main] INFO  Main:59 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:52:51 [main] INFO  Main:59 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:52:51 [main] INFO  Main:59 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:52:51 [main] INFO  Main:59 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:52:51 [main] INFO  Main:59 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:52:51 [main] INFO  Main:59 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:52:51 [main] INFO  Main:59 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:52:51 [main] INFO  Main:64 - --------------------------------------------------------
+2016-04-08 20:52:51 [main] INFO  Main:65 - --------------- Guava Library  -------------------------
+2016-04-08 20:52:51 [main] INFO  Main:66 - --------------------------------------------------------
+2016-04-08 20:52:51 [main] INFO  Main:72 - Some things others have not really mentioned that I love:
+2016-04-08 20:52:51 [main] INFO  Main:72 - Multimaps are just great. Any time you would use something like Map<Foo, Collection<Bar>>, use a multimap instead and save yourself a ton of tedious checking for an existing collection mapped to a key and creating and adding it if it isn't there.
+2016-04-08 20:52:51 [main] INFO  Main:72 - Ordering is great for building Comparators that behave just how you want.
+2016-04-08 20:56:22 [main] INFO  Main:28 - Starting the engine!
+2016-04-08 20:56:22 [main] WARN  Main:29 - ----------------- Testing Log4j Library ----------------
+2016-04-08 20:56:22 [main] INFO  Main:33 - --------------------------------------------------------
+2016-04-08 20:56:22 [main] INFO  Main:34 - ------------- Joda Time Library  -----------------------
+2016-04-08 20:56:22 [main] INFO  Main:35 - --------------------------------------------------------
+2016-04-08 20:56:22 [main] INFO  Main:39 - 2016-04-08T18:56:22.279+01:00
+2016-04-08 20:56:22 [main] WARN  Main:40 - 08:04:16 18:56:22
+2016-04-08 20:56:22 [main] INFO  Main:44 - --------------------------------------------------------
+2016-04-08 20:56:22 [main] INFO  Main:45 - ------------- Retrofit Library  ------------------------
+2016-04-08 20:56:22 [main] INFO  Main:46 - --------------------------------------------------------
+2016-04-08 20:56:23 [main] INFO  Main:58 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:56:23 [main] INFO  Main:60 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:56:23 [main] INFO  Main:60 - 09 Apr 2016 Showers
+2016-04-08 20:56:23 [main] INFO  Main:60 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:56:23 [main] INFO  Main:60 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:56:23 [main] INFO  Main:60 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:56:23 [main] INFO  Main:60 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:56:23 [main] INFO  Main:60 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:56:23 [main] INFO  Main:60 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:56:23 [main] INFO  Main:60 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:56:23 [main] INFO  Main:60 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:56:23 [main] INFO  Main:65 - --------------------------------------------------------
+2016-04-08 20:56:23 [main] INFO  Main:66 - --------------- Guava Library  -------------------------
+2016-04-08 20:56:23 [main] INFO  Main:67 - --------------------------------------------------------
+2016-04-08 20:56:23 [main] INFO  Main:73 - Some things others have not really mentioned that I love:
+2016-04-08 20:56:23 [main] INFO  Main:73 - Multimaps are just great. Any time you would use something like Map<Foo, Collection<Bar>>, use a multimap instead and save yourself a ton of tedious checking for an existing collection mapped to a key and creating and adding it if it isn't there.
+2016-04-08 20:56:23 [main] INFO  Main:73 - Ordering is great for building Comparators that behave just how you want.
+2016-04-08 20:56:23 [main] INFO  Main:80 - The variable phoneNumber is now: 884925548451
+2016-04-08 20:58:07 [main] INFO  Main:28 - Starting the engine!
+2016-04-08 20:58:07 [main] WARN  Main:29 - ----------------- Testing Log4j Library ----------------
+2016-04-08 20:58:07 [main] INFO  Main:34 - --------------------------------------------------------
+2016-04-08 20:58:07 [main] INFO  Main:35 - ------------- Joda Time Library  -----------------------
+2016-04-08 20:58:07 [main] INFO  Main:36 - --------------------------------------------------------
+2016-04-08 20:58:07 [main] WARN  Main:40 - Time now in London: 08:04:16 18:58:07
+2016-04-08 20:58:07 [main] INFO  Main:45 - --------------------------------------------------------
+2016-04-08 20:58:07 [main] INFO  Main:46 - ------------- Retrofit Library  ------------------------
+2016-04-08 20:58:07 [main] INFO  Main:47 - --------------------------------------------------------
+2016-04-08 20:58:09 [main] INFO  Main:59 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:58:09 [main] INFO  Main:61 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:58:09 [main] INFO  Main:61 - 09 Apr 2016 Showers
+2016-04-08 20:58:09 [main] INFO  Main:61 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:58:09 [main] INFO  Main:61 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:58:09 [main] INFO  Main:61 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:58:09 [main] INFO  Main:61 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:58:09 [main] INFO  Main:61 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:58:09 [main] INFO  Main:61 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:58:09 [main] INFO  Main:61 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:58:09 [main] INFO  Main:61 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:58:09 [main] INFO  Main:67 - --------------------------------------------------------
+2016-04-08 20:58:09 [main] INFO  Main:68 - --------------- Guava Library  -------------------------
+2016-04-08 20:58:09 [main] INFO  Main:69 - --------------------------------------------------------
+2016-04-08 20:58:09 [main] INFO  Main:75 - Some things others have not really mentioned that I love:
+2016-04-08 20:58:09 [main] INFO  Main:75 - Multimaps are just great. Any time you would use something like Map<Foo, Collection<Bar>>, use a multimap instead and save yourself a ton of tedious checking for an existing collection mapped to a key and creating and adding it if it isn't there.
+2016-04-08 20:58:09 [main] INFO  Main:75 - Ordering is great for building Comparators that behave just how you want.
+2016-04-08 20:58:09 [main] INFO  Main:82 - phoneNumber=884925548451
+2016-04-08 20:58:42 [main] WARN  Main:28 - ----------------- Testing Log4j Library ----------------
+2016-04-08 20:58:42 [main] INFO  Main:29 - Starting the engine!
+2016-04-08 20:58:42 [main] ERROR Main:30 - No errors until now....
+2016-04-08 20:58:42 [main] INFO  Main:35 - --------------------------------------------------------
+2016-04-08 20:58:42 [main] INFO  Main:36 - ------------- Joda Time Library  -----------------------
+2016-04-08 20:58:42 [main] INFO  Main:37 - --------------------------------------------------------
+2016-04-08 20:58:42 [main] WARN  Main:41 - Time now in London: 08:04:16 18:58:42
+2016-04-08 20:58:42 [main] INFO  Main:46 - --------------------------------------------------------
+2016-04-08 20:58:42 [main] INFO  Main:47 - ------------- Retrofit Library  ------------------------
+2016-04-08 20:58:42 [main] INFO  Main:48 - --------------------------------------------------------
+2016-04-08 20:58:43 [main] INFO  Main:60 - Current Conditions: 19 °C - Mostly Cloudy
+2016-04-08 20:58:43 [main] INFO  Main:62 - 08 Apr 2016 Mostly Cloudy
+2016-04-08 20:58:43 [main] INFO  Main:62 - 09 Apr 2016 Showers
+2016-04-08 20:58:43 [main] INFO  Main:62 - 10 Apr 2016 Mostly Cloudy
+2016-04-08 20:58:43 [main] INFO  Main:62 - 11 Apr 2016 Mostly Cloudy
+2016-04-08 20:58:43 [main] INFO  Main:62 - 12 Apr 2016 Mostly Sunny
+2016-04-08 20:58:43 [main] INFO  Main:62 - 13 Apr 2016 Mostly Sunny
+2016-04-08 20:58:43 [main] INFO  Main:62 - 14 Apr 2016 Partly Cloudy
+2016-04-08 20:58:43 [main] INFO  Main:62 - 15 Apr 2016 Mostly Sunny
+2016-04-08 20:58:43 [main] INFO  Main:62 - 16 Apr 2016 Mostly Sunny
+2016-04-08 20:58:43 [main] INFO  Main:62 - 17 Apr 2016 Partly Cloudy
+2016-04-08 20:58:43 [main] INFO  Main:68 - --------------------------------------------------------
+2016-04-08 20:58:43 [main] INFO  Main:69 - --------------- Guava Library  -------------------------
+2016-04-08 20:58:43 [main] INFO  Main:70 - --------------------------------------------------------
+2016-04-08 20:58:43 [main] INFO  Main:76 - Some things others have not really mentioned that I love:
+2016-04-08 20:58:43 [main] INFO  Main:76 - Multimaps are just great. Any time you would use something like Map<Foo, Collection<Bar>>, use a multimap instead and save yourself a ton of tedious checking for an existing collection mapped to a key and creating and adding it if it isn't there.
+2016-04-08 20:58:43 [main] INFO  Main:76 - Ordering is great for building Comparators that behave just how you want.
+2016-04-08 20:58:43 [main] INFO  Main:83 - phoneNumber=884925548451

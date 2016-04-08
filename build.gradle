@@ -4,8 +4,6 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 
 
-sourceCompatibility = 1.5
-
 repositories {
     jcenter()
     mavenCentral()
@@ -20,13 +18,16 @@ dependencies {
     //----- Guava
     compile 'com.google.guava:guava:19.0'
 
-    //----- Retrofit
+    //----- Libraries to help with internet stuff
     compile 'com.squareup.retrofit2:retrofit:2.0.0'
     compile "com.squareup.retrofit2:converter-gson:2.0.0"
     compile 'com.squareup.okhttp3:logging-interceptor:3.0.1'
 
     //for the toString in our models
     compile 'org.apache.commons:commons-lang3:3.0'
+
+    //---- Easy operations with time
+    compile 'joda-time:joda-time:2.9.3'
 
 
 }

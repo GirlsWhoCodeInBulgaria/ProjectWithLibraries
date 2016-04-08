@@ -1,6 +1,6 @@
-package remote;
+package data.remote;
 
-import data.local.Weather;
+import data.local.models.Weather;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Call;
@@ -10,7 +10,7 @@ import retrofit2.http.GET;
 
 import java.util.concurrent.TimeUnit;
 
-public interface SampleAPI {
+public interface WeatherAPI {
 
     String BASE_URL = "https://query.yahooapis.com/v1/public/";
 
@@ -18,9 +18,9 @@ public interface SampleAPI {
     Call<Weather> getWeatherSofia();
 
     class Factory {
-        private static SampleAPI service;
+        private static WeatherAPI service;
 
-        public static SampleAPI getInstance() {
+        public static WeatherAPI getInstance() {
             if (service == null) {
 
                 OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
@@ -34,7 +34,7 @@ public interface SampleAPI {
 
 
                 Retrofit retrofit = new Retrofit.Builder().client(builder.build()).addConverterFactory(GsonConverterFactory.create()).baseUrl(BASE_URL).build();
-                service = retrofit.create(SampleAPI.class);
+                service = retrofit.create(WeatherAPI.class);
                 return service;
             } else {
                 return service;

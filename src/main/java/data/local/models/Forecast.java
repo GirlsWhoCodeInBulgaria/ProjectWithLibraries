@@ -1,5 +1,5 @@
 
-package data.local;
+package data.local.models;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 @Generated("org.jsonschema2pojo")
-public class Condition {
+public class Forecast {
 
     @SerializedName("code")
     @Expose
@@ -15,9 +15,15 @@ public class Condition {
     @SerializedName("date")
     @Expose
     public String date;
-    @SerializedName("temp")
+    @SerializedName("day")
     @Expose
-    public String temp;
+    public String day;
+    @SerializedName("high")
+    @Expose
+    public String high;
+    @SerializedName("low")
+    @Expose
+    public String low;
     @SerializedName("text")
     @Expose
     public String text;

@@ -1,5 +1,5 @@
 
-package data.local;
+package data.local.models;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;

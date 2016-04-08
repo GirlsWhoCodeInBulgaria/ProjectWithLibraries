@@ -1,0 +1,13 @@
+Seriously, everything in Guava is useful. I've been using it for quite a while, and am still always discovering something new I can do with it that takes less code than doing it by hand.
+Some things others have not really mentioned that I love:
+Multimaps are just great. Any time you would use something like Map<Foo, Collection<Bar>>, use a multimap instead and save yourself a ton of tedious checking for an existing collection mapped to a key and creating and adding it if it isn't there.
+Ordering is great for building Comparators that behave just how you want.
+Maps.uniqueIndex and Multimaps.index: these methods take an Iterable and a Function and build an ImmutableMap or ImmutableListMultimap that indexes the values in the Iterable by the result of applying the function to each. So with a function that retrieves the ID of an item, you can index a list of items by their ID in one line.
+The functional stuff it provides... filter, transform, etc. Despite the verbosity of using classes for Functions and Predicates, I've found this useful. I give an example of one way to make this read nicely here.
+ComparisonChain is a small, easily overlooked class that's useful when you want to write a comparison method that compares multiple values in succession and should return when the first difference is found. It removes all the tedium of that, making it just a few lines of chained method calls.
+Objects.equal(Object,Object) - null safe equals.
+Objects.hashCode(Object...) - easy way to get a hash code based on multiple fields of your class.
+Objects.firstNonNull(Object,Object) - reduces the code for getting a default value if the first value is null, especially if the first value is the result of a method call (you'd have to assign it to a variable before doing this the normal way).
+CharMatchers were already mentioned, but they're very powerful.
+Throwables lets you do some nice things with throwables, such as Throwables.propagate which rethrows a throwable if it's a RuntimeException or an Error and wraps it in a RuntimeException and throws that otherwise.
+I could certainly go on, but I have to get to work. =) Anyway, despite my having listed some things I like here, the fact is that everything in Guava is useful in some situation or another. Much of it is useful very often. As you use it, you'll discover more uses. Not using it will feel a bit like having one hand tied behind your back.

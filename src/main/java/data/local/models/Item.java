@@ -1,5 +1,5 @@
 
-package data.local;
+package data.local.models;
 
 import java.util.ArrayList;
 import java.util.List;

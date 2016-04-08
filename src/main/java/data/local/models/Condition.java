@@ -1,5 +1,5 @@
 
-package data.local;
+package data.local.models;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
@@ -7,23 +7,20 @@ import com.google.gson.annotations.SerializedName;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 @Generated("org.jsonschema2pojo")
-public class Image {
+public class Condition {
 
-    @SerializedName("title")
+    @SerializedName("code")
     @Expose
-    public String title;
-    @SerializedName("width")
+    public String code;
+    @SerializedName("date")
     @Expose
-    public String width;
-    @SerializedName("height")
+    public String date;
+    @SerializedName("temp")
     @Expose
-    public String height;
-    @SerializedName("link")
+    public String temp;
+    @SerializedName("text")
     @Expose
-    public String link;
-    @SerializedName("url")
-    @Expose
-    public String url;
+    public String text;
 
     @Override
     public String toString() {

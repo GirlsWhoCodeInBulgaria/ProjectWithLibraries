@@ -1,5 +1,5 @@
 
-package data.local;
+package data.local.models;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
@@ -7,17 +7,20 @@ import com.google.gson.annotations.SerializedName;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 @Generated("org.jsonschema2pojo")
-public class Wind {
+public class Query {
 
-    @SerializedName("chill")
+    @SerializedName("count")
     @Expose
-    public String chill;
-    @SerializedName("direction")
+    public Integer count;
+    @SerializedName("created")
     @Expose
-    public String direction;
-    @SerializedName("speed")
+    public String created;
+    @SerializedName("lang")
     @Expose
-    public String speed;
+    public String lang;
+    @SerializedName("results")
+    @Expose
+    public Results results;
 
     @Override
     public String toString() {

@@ -1,5 +1,5 @@
 
-package data.local;
+package data.local.models;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
@@ -7,17 +7,14 @@ import com.google.gson.annotations.SerializedName;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 @Generated("org.jsonschema2pojo")
-public class Location {
+public class Astronomy {
 
-    @SerializedName("city")
+    @SerializedName("sunrise")
     @Expose
-    public String city;
-    @SerializedName("country")
+    public String sunrise;
+    @SerializedName("sunset")
     @Expose
-    public String country;
-    @SerializedName("region")
-    @Expose
-    public String region;
+    public String sunset;
 
     @Override
     public String toString() {
