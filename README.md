@@ -2,7 +2,7 @@
 
 Sample project with some gradle libraries.
 
- ### Looking for quick copy paste ?
+### Looking for quick copy paste ?
 
 
  ~~~~
